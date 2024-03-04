@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CRM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .crm-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .crm-heading {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .crm-section {
+            margin-bottom: 20px;
+        }
+        .crm-label {
+            font-weight: bold;
+        }
+        .crm-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .crm-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="crm-container">
+        <h1 class="crm-heading">Customer Details</h1>
+        <div class="crm-section">
+            <label for="name" class="crm-label">Name:</label>
+            <input type="text" id="name" class="crm-input" placeholder="Enter customer name">
+        </div>
+        <div class="crm-section">
+            <label for="email" class="crm-label">Email:</label>
+            <input type="email" id="email" class="crm-input" placeholder="Enter customer email">
+        </div>
+        <button class="crm-button">Save Customer</button>
+    </div>
+</body>
+</html>
